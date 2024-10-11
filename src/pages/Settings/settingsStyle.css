@@ -1,0 +1,1186 @@
+
+.desktop {
+  background-color: #daf7a6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.desktop .contain {
+  background-color: #daf7a6;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop .overlap {
+  height: 570px;
+  left: 846px;
+  position: absolute;
+  top: 290px;
+  width: 549px;
+}
+
+.desktop .friends-tab {
+  height: 570px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 549px;
+}
+
+
+
+/* The Coming Soon overlay */
+.coming-soon-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+/* Show the overlay on hover */
+.friends-tab:hover .coming-soon-overlay {
+  opacity: 1;
+}
+
+.desktop .overlap-group {
+  background-color: #eaddff;
+  border-radius: 10px;
+  height: 570px;
+  position: relative;
+  width: 545px;
+}
+
+.desktop .overlap-2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 119px;
+  left: 27px;
+  position: absolute;
+  top: 182px;
+  width: 485px;
+}
+
+.desktop .unusedProfilePic1 {
+  background-image: url(../../asset/image.png);
+  background-size: 100% 100%;
+  height: 95px;
+  left: 13px;
+  position: absolute;
+  top: 10px;
+  width: 92px;
+}
+
+.desktop .overlap-3 {
+  height: 83px;
+  left: 124px;
+  position: absolute;
+  top: 5px;
+  width: 346px;
+}
+
+.desktop .x-sign {
+  height: 56px;
+  left: 290px;
+  position: absolute;
+  top: 27px;
+  width: 56px;
+}
+
+.desktop .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 290px;
+}
+
+.desktop .overlap-4 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 119px;
+  left: 27px;
+  position: absolute;
+  top: 309px;
+  width: 485px;
+}
+
+.desktop .unusedProfilePic2 {
+  background-image: url(../../asset/image.png);
+  background-size: 100% 100%;
+  height: 95px;
+  left: 13px;
+  position: absolute;
+  top: 5px;
+  width: 92px;
+}
+
+.desktop .img {
+  height: 56px;
+  left: 414px;
+  position: absolute;
+  top: 31px;
+  width: 56px;
+}
+
+.desktop .overlap-5 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 119px;
+  left: 27px;
+  position: absolute;
+  top: 436px;
+  width: 485px;
+}
+
+.desktop .plus-sign {
+  height: 67px;
+  left: 394px;
+  position: absolute;
+  top: 26px;
+  width: 67px;
+}
+
+.desktop .frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 24px;
+  padding: 10px;
+  position: absolute;
+  top: 28px;
+}
+
+.desktop .div-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.desktop .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 258px;
+}
+
+.desktop .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7px;
+  width: 333px;
+}
+
+.desktop .rectangle {
+  background-color: #d9d9d9;
+  height: 228px;
+  left: 519px;
+  position: absolute;
+  top: 72px;
+  width: 21px;
+}
+
+.desktop .friend-request {
+  height: 119px;
+  left: 30px;
+  position: absolute;
+  top: 54px;
+  width: 500px;
+}
+
+.desktop .overlap-6 {
+  height: 119px;
+  position: relative;
+  width: 498px;
+}
+
+.desktop .rectangle-2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 119px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 485px;
+}
+
+.desktop .unusedProfilePic3 {
+  background-image: url(../../asset/image.png);
+  background-size: 100% 100%;
+  height: 95px;
+  left: 10px;
+  position: absolute;
+  top: 16px;
+  width: 92px;
+}
+
+.desktop .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 119px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+  width: 379px;
+}
+
+.desktop .accept-button {
+  height: 58px;
+  left: 131px;
+  position: absolute;
+  top: 53px;
+  width: 161px;
+}
+
+.desktop .overlap-group-2 {
+  background-color: #eaddff;
+  border-radius: 10px;
+  height: 58px;
+  position: relative;
+  width: 159px;
+}
+
+.desktop .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+  width: 122px;
+}
+
+.desktop .decline-button {
+  height: 58px;
+  left: 306px;
+  position: absolute;
+  top: 53px;
+  width: 175px;
+}
+
+.desktop .overlap-7 {
+  height: 58px;
+  position: relative;
+  width: 173px;
+}
+
+.desktop .rectangle-3 {
+  background-color: #eaddff;
+  border-radius: 10px;
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 159px;
+}
+
+.desktop .text-wrapper-6 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+  width: 137px;
+}
+
+.desktop .text-wrapper-7 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 149px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 313px;
+  white-space: nowrap;
+  width: 284px;
+}
+
+.desktop .infoChange {
+  height: 709px;
+  left: 47px;
+  position: absolute;
+  top: 288px;
+  width: 683px;
+}
+
+
+
+.desktop .infoPurpleBox {
+  background-color: #eaddff;
+  border-radius: 10px;
+  height: 608px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 673px;
+}
+
+.desktop .name {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  right: 450px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+  width: 298px;
+}
+
+
+
+
+.desktop .email {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  right: 450px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 158px;
+  width: 298px;
+}
+
+
+.desktop .password {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  right: 410px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 310px;
+  width: 298px;
+}
+
+/*PASSWORD RECTANGLE*/
+
+
+.desktop .confirmPassword {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  right: 280px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 466px;
+  white-space: nowrap;
+  width: 429px;
+}
+
+
+
+.desktop .updateButton {
+  background-color: #3aa141;
+  border-radius: 10px;
+  border: none;
+  height: 84px;
+  left: 191px;
+  position: absolute;
+  top: 625px;
+  width: 274px;
+
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 45px;
+  font-weight: 400;
+  letter-spacing: -0.96px;
+  line-height: 38.4px;
+  position: absolute;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.desktop .text-wrapper-12 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 62px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  width: 211px;
+}
+
+.desktop .text-wrapper-13 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  height: 37px;
+  left: 38px;
+  letter-spacing: -0.96px;
+  line-height: 38.4px;
+  position: absolute;
+  top: 65px;
+  white-space: nowrap;
+  width: 595px;
+}
+
+
+
+
+
+
+
+.desktop .account-management {
+  height: 142px;
+  left: 846px;
+  position: absolute;
+  top: 871px;
+  width: 551px;
+}
+
+.desktop .accManagementBox {
+  background-color: #eaddff;
+  border-radius: 10px;
+  height: 142px;
+  position: relative;
+  width: 547px;
+}
+
+.desktop .signOut {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+  width: 155px;
+
+  text-decoration: underline; /* This adds the underline */
+  cursor: pointer; /* Optional: If you want it to still have a pointer cursor like a link */
+  color: inherit; 
+}
+
+
+
+.desktop .cancel-instance {
+  height: 10px ;
+  left: 10px ;
+  position: absolute ;
+  top: 15px ;
+  width: 10px ;
+}
+.cancel-instance img {
+  width: 50px; /* Smaller image size for mobile */
+  height: 50px; /* Smaller image size for mobile */
+}
+
+
+.desktop .mainProfile {
+  height: 156px;
+  left: 66px;
+  position: absolute;
+  top: 109px;
+  width: 621px;
+}
+
+
+
+.desktop .mainProfilePic{
+  background-image: url(../../asset/image.png);
+  background-size: 100% 100%;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
+}
+
+
+
+
+
+
+/*CHANGE PHOTO OVERLAY BUTTON*/
+.desktop .changePicButt {
+  background-color: #eaddff;
+  border-radius: 10px;
+  border: none;
+  height: 57px;
+  right: 320px;
+  position: absolute;
+  bottom: 20px;
+  width: 169px;
+  font-size: 20px;
+  cursor: pointer;
+
+  overflow: hidden;   /* Ensure the overlay stays inside the button */
+}
+
+.coming-soon-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000; /* Semi-transparent black */
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none; /* To allow the click to pass through */
+}
+
+/* Show the overlay on hover */
+.changePicButt:hover .coming-soon-overlay {
+  opacity: 1;
+}
+
+
+
+.desktop .username {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  height: 58px;
+  left: 0px;
+  letter-spacing: -1.08px;
+  line-height: 43.2px;
+  position: absolute;
+  top: 30px;
+  width: 447px;
+}
+
+.desktop .spotify-tab {
+  height: 175px;
+  left: 847px;
+  position: absolute;
+  top: 101px;
+  width: 548px;
+}
+
+.desktop .spotifyBox {
+  background-color: #eaddff;
+  border-radius: 10px;
+  height: 175px;
+  position: relative;
+  width: 544px;
+}
+
+.desktop .spotifyCustomLogo{
+  height: 132px;
+  left: 16px;
+  position: absolute;
+  top: 19px;
+  width: 132px;
+}
+
+
+
+.desktop .ellipse {
+  background-color: #ffffff;
+  border-radius: 55.96px/45.91px;
+  height: 92px;
+  left: 9px;
+  position: absolute;
+  top: 16px;
+  width: 112px;
+}
+
+.desktop .spotifyLogoPic {
+  height: 132px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 132px;
+}
+
+.desktop .spotifyName {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 153px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 35px;
+  width: 322px;
+}
+
+.desktop .spotifyButtonBox {
+  background-color: #EADDFF;
+  border-radius: 10px;
+  height: 60px;
+  left: 153px;
+  position: absolute;
+  top: 97px;
+  width: 355px;
+}
+
+.desktop .spotifyButton {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  height: 60px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 355px;
+
+
+ border: none; /* Remove border */
+  border-radius: 10px; /* Rounder edges - adjust value as needed */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  transition: background-color 0.3s ease;
+}
+
+.desktop .pageSettingsLabel {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 72px;
+  font-weight: 700;
+  height: 86px;
+  left: 520px;
+  letter-spacing: -2.16px;
+  line-height: 86.4px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 415px;
+}
+
+
+/* Overlay background style */
+
+
+/* Overlay background style */
+.desktop .overlay {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  z-index: 1000;
+}
+
+/* Overlay content box */
+.desktop .overlay-content {
+  background-color: #fff;
+  padding: 0; /* Remove padding around the buttons */
+  border-radius: 20px; /* Rounded corners for the overlay */
+  width: 100%; /* Full width for the overlay */
+  max-width: 500px; /* Max width of the overlay box */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  text-align: center; /* Center text inside the overlay */
+}
+
+/* Style for the buttons */
+.desktop .overlay-buttons {
+  display: flex; /* Use flexbox to arrange buttons side by side */
+  justify-content: stretch; /* Stretch buttons to fill the container */
+  width: 100%; /* Full width for the button container */
+  margin: 0; /* Remove margin */
+  
+}
+
+.desktop .overlay-buttons button {
+  background-color: #ffffff; /* Button background color */
+  color: #000000; /* Button text color */
+  border: none; /* No border */
+  border-radius: 20px; /* No rounded corners */
+  padding: 10px; /* Padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+  flex: none; /* Prevent flexbox from stretching */
+  width: 250px; /* Set the width of the button */
+  height: 50px; /* Set the height of the button */
+  margin: 0; /* Remove margin */
+  
+}
+
+/* Hover effect for buttons */
+.desktop .overlay-buttons button:hover {
+  background-color: #f2f2f2; /* Slightly darker background on hover */
+}
+
+.desktop .overlay-content h1 {
+  font-family: "Inter-Regular", Helvetica, sans-serif; /* Change to your desired font */
+  font-size: 24px; /* Adjust font size */
+  font-weight: 700; /* Change font weight (bold) */
+  color: #000; /* Change text color */
+  margin-bottom: 10px; /* Space below the h1 */
+}
+
+.desktop .overlay-content h3 {
+  font-family: "Inter-Regular", Helvetica, sans-serif; /* Change to your desired font */
+  font-size: 16px; /* Adjust font size */
+  font-weight: 400; /* Regular weight */
+  color: #555; /* Change text color for contrast */
+  margin-top: 0; /* Remove margin above h3 */
+  margin-bottom: 20px; /* Space below the h3 */ 
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+.name-input {
+  width: 50%; /* Full width */
+  padding: 10px; /* Padding inside the input field */
+  margin-top: 10px; /* Space above the input field */
+  border-radius: 10px; /* Rounded corners */
+  border: none; /* Border style */
+  
+  font-family: "Inter-Regular", Helvetica; /* Font family */
+ 
+  height: 45px;
+  left: 18px;
+  position: absolute;
+  top: 40px;
+  width: 620px;
+
+  color: #000000;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -0.96px;
+  line-height: 38.4px;
+  position: absolute;
+  white-space: nowrap;
+  outline: none;
+  
+  
+}
+
+
+
+.email-input {
+  width: 50%; /* Full width */
+  padding: 10px; /* Padding inside the input field */
+  margin-top: 10px; /* Space above the input field */
+  border-radius: 10px; /* Rounded corners */
+  border: none; /* Border style */
+  
+  font-family: "Inter-Regular", Helvetica; /* Font family */
+ 
+  
+  
+  position: absolute;
+  
+  width: 620px;
+
+  color: #000000;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -0.96px;
+  line-height: 38.4px;
+ 
+  white-space: nowrap;
+  
+  background-color: #ffffff;
+  height: 45px;
+  left: 18px;
+  top: 190px;
+  outline: none;
+  
+
+  
+}
+
+
+
+
+
+.password-input-container {
+  position: absolute;
+  top: 358px; /* Adjust the top position */
+  left: 18px; /* Adjust the left position */
+  width: 631px;
+  height: 65px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex; /* Use flexbox to align the input and the button inside */
+  align-items: center; /* Vertically center the input and the button */
+  padding: 0 10px; /* Padding inside the container */
+  box-sizing: border-box;
+}
+
+.password-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  height: 50%; /* Stretch the input to fill the container height */
+  padding-left: 10px;
+}
+
+.toggle-password {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-password-icon {
+  width: 60px; /* Adjust the size of the icon */
+  
+}
+
+
+
+
+
+
+
+
+.password-input-container2 {
+  position: relative; /* To keep the toggle button inside the input container */
+  width: 631px;
+  height: 63px;
+  left: 18px;
+  top: 518px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center; /* Centers content vertically */
+}
+
+.password-input2 {
+  background-color: transparent; /* Input box will inherit background from container */
+  border: none; /* Removes the default border */
+  outline: none; /* Removes the outline when clicked */
+  width: 100%; /* Input takes full width minus the space for the icon */
+  height: 100%; /* Input takes full height of the container */
+  padding-left: 10px; /* Adds some padding for the text inside */
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: -0.96px;
+  line-height: 38.4px;
+}
+
+.toggle-password2 {
+  position: absolute;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-password-icon2 {
+  width: 60px; /* Adjust the size of the icon */
+  
+}
+
+
+
+
+
+
+
+
+
+.desktop .deleteAcc {
+  color: #d31518;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: underline;
+  top: 76px;
+  width: 361px;
+  cursor: pointer;
+  right: 220px;
+}
+
+
+
+
+
+/* DELETE OVERLAY background style */
+.desktop .delOverlay {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  z-index: 1000;
+}
+
+/* Overlay content box */
+.desktop .delOverlay-content {
+  background-color: #D9D9D9;
+  padding: 0; /* Remove padding around the content */
+  border-radius: 20px; /* Rounded corners for the overlay */
+  width: 100%; /* Full width for the overlay */
+  max-width: 500px; /* Max width of the overlay box */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  text-align: center; /* Center text inside the overlay */
+}
+
+/* Style for the buttons container */
+.desktop .delOverlay-buttons {
+  display: flex; /* Use flexbox to arrange buttons side by side */
+  justify-content: stretch; /* Stretch buttons to fill the container */
+  width: 100%; /* Full width for the button container */
+  margin: 0; /* Remove margin */
+  
+}
+
+/* Style for delete button */
+.desktop .delOverlay-buttons .delete-button {
+  border: none; /* No border */
+  border-radius: 20px; /* No rounded corners */
+  padding: 0; /* Remove padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+  flex: 1; /* Allow button to stretch */
+  height: 80px; /* Set the height of the button */
+  margin: 0; /* Remove margin */
+  color: #ff0000; /* Black text color */
+  text-decoration: underline; /* Underline text */
+  font-size: 25px;
+  background-color: #D9D9D9;
+}
+
+/* Style for cancel button */
+.desktop .delOverlay-buttons .cancel-button {
+ 
+  color: #000000; /* Black text color */
+  border: none; /* No border */
+  border-radius: 20px; /* No rounded corners */
+  padding: 0; /* Remove padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+  flex: 1; /* Allow button to stretch */
+  height: 80px; /* Set the height of the button */
+  margin: 0; /* Remove margin */
+  font-size: 25px;
+  background-color: #D9D9D9;
+}
+
+/* Hover effect for delete button */
+.desktop .delOverlay-buttons .delete-button:hover {
+  background-color: #b3b3b3; /* Darker red background on hover */
+}
+
+/* Hover effect for cancel button */
+.desktop .delOverlay-buttons .cancel-button:hover {
+  background-color: #b3b3b3; /* Slightly darker gray on hover */
+}
+
+/* Header styles */
+.desktop .delOverlay-content h1 {
+  font-family: "Inter-Regular", Helvetica, sans-serif; /* Change to your desired font */
+  font-weight: 700; /* Change font weight (bold) */
+  color: #000; /* Change text color */
+  margin-bottom: 10px; /* Space below the h1 */
+  font-size: 45px;
+}
+
+.desktop .delOverlay-content h2 {
+  font-family: "Inter-Regular", Helvetica, sans-serif; /* Change to your desired font */
+  font-size: 16px; /* Adjust font size */
+  font-weight: 400; /* Regular weight */
+  color: #555; /* Change text color for contrast */
+  margin-top: 0; /* Remove margin above h3 */
+  margin-bottom: 20px; /* Space below the h3 */ 
+}
+
+.desktop .delOverlay-content h3 {
+  font-family: "Inter-Regular", Helvetica, sans-serif; /* Change to your desired font */
+  font-size: 16px; /* Adjust font size */
+  font-weight: 400; /* Regular weight */
+  color: #ff0000; /* Change text color for contrast */
+  margin-top: 0; /* Remove margin above h3 */
+  margin-bottom: 20px; /* Space below the h3 */ 
+  text-decoration: underline; /* Underline text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.friends-tab {
+  background-color: #EADDFF; /* Light background for the friends tab */
+  padding: 20px; /* Padding inside the friends tab */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 500px !important; /* Max width of the friends tab */
+  position: fixed; /* Fixed positioning */
+  left: 850px !important; /* Increased distance from the right edge */
+  top: 300px !important; /* Distance from the top edge */
+  z-index: 1000; /* Ensure it appears above other elements */
+  height: 500px !important; /* Full height for proper alignment */
+
+}
+
+
+
+.friends-tab h1 {
+  font-family: "Inter-Regular", Helvetica, sans-serif; /* Desired font */
+  font-size: 30px; /* Font size for the header */
+  color: #000; /* Text color for the header */
+  margin-bottom: 10px; /* Space below the header */
+  text-align: left; /* Left align the text */
+}
+
+
+.notifications {
+  background-color: #ffffff; /* White background for notifications */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px; /* Padding inside notifications box */
+  max-height: 150px; /* Max height for the notifications box */
+  overflow-y: auto; /* Scroll if notifications exceed max height */
+  margin-bottom: 10px; /* Space below notifications box */
+}
+
+.notification {
+  padding: 5px; /* Padding inside each notification */
+  border-bottom: 1px solid #eaeaea; /* Bottom border for separation */
+}
+
+.notification:last-child {
+  border-bottom: none; /* Remove border for the last notification */
+}
+
+.add-friend {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+}
+
+.friend-input {
+  flex: 1; /* Allow input to take available space */
+  padding: 10px; /* Padding inside input */
+  border: 1px solid #ccc; /* Border for the input */
+  border-radius: 5px; /* Rounded corners */
+  margin-right: 0px; /* Space between input and button */
+  width: 250px; /* Set a fixed width for the input box */
+  height: 40px; /* Set a fixed height for the input box */
+}
+
+.add-button {
+  background-color: #D9D9D9; /* Grey background color */
+  color: #000000; /* Change text color to white for better contrast */
+  font-size: 40px; /* Button text size */
+  border: none; /* No border */
+  border-radius: 0; /* Square corners */
+  padding: 8px 20px; /* Adjust padding for a more square shape */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+  border-radius: 5px;
+}
+
+.add-button:hover {
+  background-color: #bebcbc; /* Darker grey on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/CSE442/2024-Fall/cse-442l/static/css/main.a2e45f26.css",
+    "main.js": "/CSE442/2024-Fall/cse-442l/static/js/main.c0966ae9.js",
+    "static/js/453.addf6612.chunk.js": "/CSE442/2024-Fall/cse-442l/static/js/453.addf6612.chunk.js",
+    "static/media/image.png": "/CSE442/2024-Fall/cse-442l/static/media/image.d957592dfe7b632de567.png",
+    "static/media/spotifylogo-1.png": "/CSE442/2024-Fall/cse-442l/static/media/spotifylogo-1.1238f13ca7cc5963b0dd.png",
+    "static/media/eyeClosed.png": "/CSE442/2024-Fall/cse-442l/static/media/eyeClosed.b3f0500f5ef9d05ab880.png",
+    "static/media/eyeOpen.png": "/CSE442/2024-Fall/cse-442l/static/media/eyeOpen.b802965b970457bc68db.png",
+    "static/media/x-sign.png": "/CSE442/2024-Fall/cse-442l/static/media/x-sign.afaf0d3a373846fb2636.png",
+    "index.html": "/CSE442/2024-Fall/cse-442l/index.html",
+    "main.a2e45f26.css.map": "/CSE442/2024-Fall/cse-442l/static/css/main.a2e45f26.css.map",
+    "main.c0966ae9.js.map": "/CSE442/2024-Fall/cse-442l/static/js/main.c0966ae9.js.map",
+    "453.addf6612.chunk.js.map": "/CSE442/2024-Fall/cse-442l/static/js/453.addf6612.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2e45f26.css",
+    "static/js/main.c0966ae9.js"
+  ]
+}
