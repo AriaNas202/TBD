@@ -12,7 +12,7 @@ const ResetPassword = () => {
     e.preventDefault();
     const email = e.target.email.value;
 
-    fetch('/CSE442/2024-Fall/cse-442l/php/reset-password.php', {
+    fetch('/CSE442/2024-Fall/cse-442l/php/reset-request.php', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',

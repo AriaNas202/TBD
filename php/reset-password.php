@@ -33,12 +33,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $message = "The token is invalid or has expired.";
         $redirect = false; // Disable redirection if reset fails
     }
+
 }
-
-
-
-/*
-
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -148,10 +145,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
 </body>
 </html>
-*/
+
+        
 
 
-?>
 
 
 
